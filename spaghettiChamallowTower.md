@@ -1,5 +1,5 @@
 #Objectif :
-Réaliser une tour de Spaghetti pour placer un Chamallow le plus haut possible
+Réaliser une tour de Spaghetti pour placer un Chamallow le plus haut possible.
 
 #Ressources :
 - 1m de ruban adhésif
@@ -13,3 +13,7 @@ Réaliser une tour de Spaghetti pour placer un Chamallow le plus haut possible
 - 57 : "C'est quoi ton projet ?" / 0
 - 11:04 "Ca ne tiendra pas..."
 - dépassement du délai
+- 
+
+#Sources
+http://marshmallowchallenge.com/
