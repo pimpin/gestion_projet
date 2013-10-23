@@ -1,39 +1,21 @@
 <?php
-# src/Vendor/Project/tests/units/HelloWorld.php
 
-// La classe de test à son propre namespace :
-// Le namespace de la classe à tester + "tests\units"
-namespace tests\units;
+namespace vendor\project\tests\units;
 
-// Vous devez inclure la classe à tester
-require_once __DIR__ . '/../../HelloWorld.php';
+require_once __DIR__ . '/../mageekguy.atoum.phar';
 
-use \atoum;
+include 'path/to/project/classes/helloWorld.php';
 
-/*
- * Classe de test pour \HelloWorld
+use \mageekguy\atoum;
+use \vendor\project;
 
- * Remarquez qu’elle porte le même nom que la classe à tester
- * et qu’elle dérive de la classe atoum
- */
-class HelloWorld extends atoum
+class helloWorld extends atoum\test
 {
-    /*
-     * Cette méthode est dédiée à la méthode getHiAtoum()
-     */
-    public function testGetHiAtoum ()
+    public function testSay()
     {
-        // création d’une nouvelle instance de la classe à tester
-        $helloToTest = new HelloWorld();
+        $helloWorld = new project\helloWorld();
 
-        $this
-            // nous testons que la méthode getHiAtoum retourne bien
-            // une chaîne de caractère...
-            ->string($helloToTest->getHiAtoum())
-                // ... et que la chaîne est bien celle attendue,
-                // c’est-à-dire 'Hi atoum !'
-                ->isEqualTo('Hi atoum !')
+        $this->string($helloWorld->say())->isEqualTo('Hello World!')
         ;
     }
 }
-?>
