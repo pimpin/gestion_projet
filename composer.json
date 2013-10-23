@@ -10,6 +10,6 @@
       "homepage": "http://apido.org"
   }],
   "require-dev": {
-      "atoum/atoum": "*@dev",
+      "atoum/atoum": "*@dev"
   }
 }
