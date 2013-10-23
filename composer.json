@@ -1,5 +1,15 @@
 {
-    "require" : {
-        "atoum/atoum" : "dev-master"
-    }
+  "name": "pimpin/gestion_projet",
+  "description": "Support de formation en gestion de projet agile",
+  "keywords": ["Agile", "scrum", "XP"],
+  "type": "standalone",
+  "homepage": "https://github.com/pimpin/gestion_projet",
+  "license": "All rights reserved.",
+  "authors": [{
+      "name": "Pierre Merlin",
+      "homepage": "http://apido.org"
+  }],
+  "require-dev": {
+      "atoum/atoum": "*@dev",
+  }
 }
