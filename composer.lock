@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d4b900dce3a973344840df7254ebc1a6",
+    "hash": "5d72b18324680d2684c00715dde13e6e",
     "packages": [
         {
             "name": "atoum/atoum",
