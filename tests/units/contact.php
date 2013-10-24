@@ -11,8 +11,13 @@ use \recette;
 
 class Contact extends atoum\test
 {
-    public function testGetName()
-    {
-        $contact = new \Contact();
-    }
+  public function testGetName()
+  {
+    $contact = new \Contact();
+    $contactName = $contact->getName();
+
+    $this
+      ->string($contactName)
+    ;
+  }
 }

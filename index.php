@@ -1,3 +1,3 @@
 <?php
-	echo('Hello Green style !');
+	echo('Hello Green contact !');
 ?>
