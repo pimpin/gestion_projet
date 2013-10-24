@@ -1,3 +1,3 @@
 <?php
-	echo('Hello Red World !');
+	echo('Hello Green World !');
 ?>
