@@ -4,7 +4,7 @@ class HelloWorld
 {
     public function getHiAtoum ()
     {
-        return 'Hi atoum !';
+        return 'Hello World!';
     }
 }
 ?>
