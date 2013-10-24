@@ -16,7 +16,7 @@ class User extends atoum\test
         $monUser = new User();
         
         $this
-            ->variable($getName)
+            ->variable($monUser->getName())
                 ->isCallable()
         ;
     }
