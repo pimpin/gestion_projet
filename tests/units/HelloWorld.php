@@ -15,7 +15,7 @@ class HelloWorld extends atoum\test
     {
         $helloWorld = new \HelloWorld();
 
-        $this->string($helloWorld->getHiAtoum())->isEqualTo('Hello World!')
-        ;
+        $this->string($helloWorld->getHiAtoum())->isEqualTo('Hello World!');
+        $this->string($helloWorld->getHiAtoum("henri"))->isEqualTo('Hello henri!');
     }
 }
