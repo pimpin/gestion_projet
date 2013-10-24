@@ -1,3 +1,3 @@
 <?php
-	echo('Hello Green contact !');
+	echo('Hello Green admin !');
 ?>
