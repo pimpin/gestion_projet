@@ -14,11 +14,10 @@ class User extends atoum\test
     public function testGetName()
     {
         $monUser = new User();
-        $mamethode = $monUser->getName();
+        $nom = $monUser->getName();
         
         $this
-            ->variable($mamethode)
-                ->isCallable()
+            ->string($nom)
         ;
     }
     
