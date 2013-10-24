@@ -13,7 +13,11 @@ class CustomStyle extends atoum\test
 {
     public function testGetName()
     {
-        $instance = new \CustomStyle();
+        $style = new \CustomStyle();
+        $styleName = $style->getName();
 
+        $this
+          ->string($styleName)
+        ;
     }
 }
