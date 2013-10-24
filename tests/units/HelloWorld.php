@@ -2,18 +2,18 @@
 
 namespace recette\tests\units;
 
-require_once __DIR__ . '/../mageekguy.atoum.phar';
+require_once __DIR__ . '/../../mageekguy.atoum.phar';
 
-include 'path/to/project/classes/helloWorld.php';
+include '/classes/helloWorld.php';
 
 use \mageekguy\atoum;
-use \vendor\project;
+use \recette;
 
 class helloWorld extends atoum\test
 {
     public function testSay()
     {
-        $helloWorld = new project\helloWorld();
+        $helloWorld = new helloWorld();
 
         $this->string($helloWorld->say())->isEqualTo('Hello World!')
         ;
