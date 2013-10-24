@@ -16,7 +16,7 @@ class User extends atoum\test
         $monUser = new User();
         
         $this
-            ->variable($monUser->getName())
+            ->string($monUser->getName())
         ;
     }
     
