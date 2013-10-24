@@ -1,6 +1,6 @@
 <?php
 
-class MaClass
+class MaClasse
 {
    
 }
