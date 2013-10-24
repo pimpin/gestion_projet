@@ -1,5 +1,7 @@
 <?php
 
+namespace classe/User;
+
 class User{ 
 
     private $login;
