@@ -1,4 +1,4 @@
-gestion_projet [![Build Status](https://secure.travis-ci.org/pimpin/gestion_projet.png)](http://travis-ci.org/pimpin/gestion_projet)
+gestion_projet [![Build Status](https://secure.travis-ci.org/nikus44/gestion_projet.png)](http://travis-ci.org/nikus44/gestion_projet)
 ------------
 
 Bienvenue sur le dépot illustrant le cours de gestion de projet.
