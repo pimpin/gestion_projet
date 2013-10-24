@@ -17,6 +17,7 @@ class User extends atoum\test
     
     $this
       ->string($monUser->getName())
+        ->->contains('ll')
     ;
   }
     
