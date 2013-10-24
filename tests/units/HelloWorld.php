@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\project\tests\units;
+namespace recette\tests\units;
 
 require_once __DIR__ . '/../mageekguy.atoum.phar';
 
