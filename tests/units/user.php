@@ -17,8 +17,8 @@ class User extends atoum\test
         $mamethode = 'getName';
         
         $this
-            ->variable($monUser)
-                ->isCallable($mamethode)
+            ->variable($mamethode)
+                ->isCallable()
         ;
     }
     
