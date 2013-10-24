@@ -1,5 +1,6 @@
-gestion_projet
-==============
+gestion_projet  Build status
+------------
+[![Build Status](https://secure.travis-ci.org/pimpin/gestion_projet.png)](http://travis-ci.org/pimpin/gestion_projet)
 
 Bienvenue sur le dépot illustrant le cours de gestion de projet.
 
