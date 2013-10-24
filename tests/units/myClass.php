@@ -13,6 +13,6 @@ class MyClass extends atoum\test
 {
     public function testGetName()
     {
-        $instance = new MaClass();
+        $instance = new MyClass();
     }
 }
