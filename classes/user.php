@@ -7,6 +7,7 @@ class User{
     private $rights;
     
     function __construct($name, $login, $pass, $right="user") {
+        $this->name = $name;
         $this->login = $login;
         $this->pass = $pass;
         $this->right = $right;
