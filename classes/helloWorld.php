@@ -4,7 +4,7 @@ class HelloWorld
 {
     public function getHiAtoum ($name)
     {
-        return 'Hello $name!';
+        return 'Hello '.$name.'!';
     }
 }
 ?>
