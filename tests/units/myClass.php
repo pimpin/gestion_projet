@@ -11,8 +11,11 @@ use \recette;
 
 class MyClass extends atoum\test
 {
-    public function testGetName()
-    {
-        $instance = new MyClass();
-    }
+  public function testGetName()
+  {
+    $this
+      ->class('\MyClass')
+        ->hasNoParent()
+    ;
+  }
 }

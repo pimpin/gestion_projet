@@ -11,13 +11,13 @@ use \recette;
 
 class User extends atoum\test
 {
-    public function testGetName()
-    {
-        $monUser = new \User();
-        
-        $this
-            ->string($monUser->getName())
-        ;
-    }
+  public function testGetName()
+  {
+    $monUser = new \User();
+    
+    $this
+      ->string($monUser->getName())
+    ;
+  }
     
 }
