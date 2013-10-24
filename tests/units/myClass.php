@@ -4,12 +4,12 @@ namespace tests\units;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
-include __DIR__ . '/../../classes/maClasse.php';
+include __DIR__ . '/../../classes/myClass.php';
 
 use \mageekguy\atoum;
 use \recette;
 
-class MaClass extends atoum\test
+class MyClass extends atoum\test
 {
     public function testGetName()
     {
