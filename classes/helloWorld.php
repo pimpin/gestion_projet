@@ -2,9 +2,9 @@
 
 class HelloWorld
 {
-    public function getHiAtoum ()
+    public function getHiAtoum ($name)
     {
-        return 'Hello henri!';
+        return 'Hello $name!';
     }
 }
 ?>
