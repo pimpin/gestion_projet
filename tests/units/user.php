@@ -13,11 +13,10 @@ class User extends atoum\test
 {
     public function testGetName()
     {
-        $monUser = new User();
-        $nom = $monUser->getName();
+        $monUser = new \User();
         
         $this
-            ->string($nom)
+            ->string($monUser->getName())
         ;
     }
     
