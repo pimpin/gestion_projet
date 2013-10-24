@@ -14,5 +14,8 @@ class User extends atoum\test
     public function testGetName()
     {
         $monUser = new User();
+        $monUserNameGetter = $monUser->getName();
+        $monUserNameGetter->isCallable();
     }
+    
 }
