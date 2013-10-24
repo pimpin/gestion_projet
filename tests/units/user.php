@@ -17,7 +17,6 @@ class User extends atoum\test
         
         $this
             ->variable($monUser->getName())
-                ->isCallable()
         ;
     }
     
