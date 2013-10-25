@@ -1,22 +1,22 @@
 <?php
 
-class User{ 
+class User{
 
     private $login;
     private $pass;
     private $rights;
-    
-    function __construct($name="", $login="", $pass="", $right="user") {
+
+    function __construct($name="", $login="", $pass="", $right="user",$tel="") {
         $this->name = $name;
         $this->login = $login;
         $this->pass = $pass;
         $this->right = $right;
     }
-    
+
     public function getName() {
         return $this->name;
     }
-    
+
     public function getLogin() {
         return $this->login;
     }
