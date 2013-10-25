@@ -1,22 +1,22 @@
 <?php
 
-class User{ 
+class User{
 
     private $login;
     private $pass;
     private $rights;
-    
-    function __construct($name="", $login="", $pass="", $right="user") {
+
+    function __construct($name="", $login="", $pass="", $right="user", $email) {
         $this->name = $name;
         $this->login = $login;
         $this->pass = $pass;
         $this->right = $right;
     }
-    
+
     public function getName() {
         return $this->name;
     }
-    
+
     public function getLogin() {
         return $this->login;
     }
@@ -42,6 +42,11 @@ class User{
     public function setRight($right) {
         $this->right = $right;
         return $this;
+    }
+
+    public function getMail()
+    {
+
     }
 }
 ?>
