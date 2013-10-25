@@ -1,3 +1,3 @@
 <?php
-	echo('Hello Green admin !');
+	echo('Hello RED admin !');
 ?>
