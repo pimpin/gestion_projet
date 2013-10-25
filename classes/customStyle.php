@@ -1,9 +1,9 @@
 <?php
 
 class CustomStyle{
-    //public function getName()
-    //{
-     //   return "";
-    //}
+    public function getName()
+    {
+       return "";
+    }
 }
 ?>
