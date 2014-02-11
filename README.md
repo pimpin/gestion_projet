@@ -8,3 +8,5 @@ Ce dépot est à la fois :
 - l'objet de sa propre étude.
 
 Il est ouvert à tous les participants.
+
+[XP](https://docs.google.com/presentation/d/1o3-Ew2hHfH7eTkzfWHByNEOlQRhVaPq26F_wjhbRBDU/pub?start=false&loop=false&delayms=3000)
